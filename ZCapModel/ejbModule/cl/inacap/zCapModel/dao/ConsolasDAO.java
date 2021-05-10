@@ -46,7 +46,7 @@ public class ConsolasDAO implements ConsolasDAOLocal {
 			}
 		}
 		return aux;*/
-		return consolas.stream().filter(c->c.getNombre().contains(nombre).collect(Collectors.toList()));
+		return consolas.stream().filter(c->c.getNombre().contains(nombre)).collect(Collectors.toList());
 	}
 
 }
