@@ -31,13 +31,13 @@ public class ConsolasDAO implements ConsolasDAOLocal {
 	}
 
 	@Override
-	public void delte(Consola consola) {
+	public void delete(Consola consola) {
 		// TODO Auto-generated method stub
 		consolas.remove(consola);
 	}
 
 	@Override
-	public List<Consola> filyerByNames(String nombre) {
+	public List<Consola> filterByNames(String nombre) {
 		
 		/*List<Consola> aux = new ArrayList<>();
 		for(Consola c: consolas) {

@@ -11,8 +11,8 @@ public interface ConsolasDAOLocal {
 	
 	void save(Consola consola);
 	List<Consola> getAll();
-	void delte(Consola consola);
-	List<Consola> filyerByNames(String nombre);
+	void delete(Consola consola);
+	List<Consola> filterByNames(String nombre);
 	
 	
 	

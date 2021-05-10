@@ -32,6 +32,7 @@ public class Consola {
 	public void setJuegos(List<Juego> juegos) {
 		this.juegos = juegos;
 	}
+	public String toString() { return "nombre: " +nombre+"-marca: "+marca ;}
 	
 	
 	
